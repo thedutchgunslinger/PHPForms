@@ -16,14 +16,14 @@
         <input type="text" name="title" placeholder="Titel">
         <br>
         <label for="message">Bericht</label>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Bericht"></textarea>
         <!-- password, how many times the message has to appear-->
         <br>
         <label for="password">Wachtwoord</label>
-        <input type="password" name="password">
+        <input type="password" name="password" placeholder="Wachtwoord">
         <br>
         <label for="amount">Aantal</label>
-        <input type="number" name="amount">
+        <input type="number" name="amount" value="1" min="1" max="500">
         <button type="submit">Verzend</button>
 
     </form>
